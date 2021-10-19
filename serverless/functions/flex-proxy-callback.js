@@ -1,3 +1,4 @@
+//Flex proxy callback
 async function getAttributes(client, chatService, chatChannel, messageSid) {
   let message = await client.chat
     .services(chatService)
